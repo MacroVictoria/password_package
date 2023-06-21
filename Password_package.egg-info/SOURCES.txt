@@ -1,0 +1,11 @@
+LICENSE.LIC
+README.md
+pyproject.toml
+setup.py
+Password_package.egg-info/PKG-INFO
+Password_package.egg-info/SOURCES.txt
+Password_package.egg-info/dependency_links.txt
+Password_package.egg-info/requires.txt
+Password_package.egg-info/top_level.txt
+password_package/__init__.py
+password_package/password_module.py

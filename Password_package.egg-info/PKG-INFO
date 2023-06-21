@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Password-package
+Version: 1.0.0
+Summary: Password generator
+Home-page: 
+Author: Victoria
+Author-email: vhertfelder@stud.macromedia.de
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.LIC
+
+# Password Package
+
+This project is part of my thesis within the Python programming course at Macromedia University.
+The implementation of classes allows generating passwords of any lenght and from different character sets.
+
