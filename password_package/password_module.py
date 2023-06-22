@@ -93,7 +93,7 @@ class PasswordManagement(CharacterSet):
     def save_password(self, label, user, password):
         password_string = "".join(password)
         try:
-            password_database = self.load_json('password_package\modules\Daten\password_Database.json')
+            password_database = self.load_json('password_package\Daten\password_Database.json')
             
             if password_database is None:
                 password_database = []
@@ -106,7 +106,7 @@ class PasswordManagement(CharacterSet):
 
             password_database.append(new_entry)
 
-            self.save_json('password_package\modules\Daten\password_Database.json', password_database)
+            self.save_json('password_package\Daten\password_Database.json', password_database)
             print("Passwort wurde erfolgreich gespeichert.")
             
         except Exception as e:
@@ -115,7 +115,7 @@ class PasswordManagement(CharacterSet):
     #In der Methode view_password werden die in der Passwortdatenbank gespeicherten Passwörter angezeigt.
     def view_password(self):
         try:
-            password_database = self.load_json('password_package\modules\Daten\password_Database.json')
+            password_database = self.load_json('password_package\Daten\password_Database.json')
 
             if not password_database:
                 print("Die Passwortliste ist leer.")
